@@ -1,0 +1,3 @@
+# HELP battery_voltage_volt Voltage of battery in volts
+# TYPE battery_voltage_volt gauge
+battery_voltage_volt 12.30

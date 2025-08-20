@@ -1,0 +1,10 @@
+[Unit]
+Description=Run RAM usage script every 1s
+
+[Timer]
+OnUnitActiveSec=1s
+AccuracySec=1s
+Unit=ram-usage-exporter.service
+
+[Install]
+WantedBy=timers.target

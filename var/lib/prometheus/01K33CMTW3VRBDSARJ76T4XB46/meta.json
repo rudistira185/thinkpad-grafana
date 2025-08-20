@@ -1,0 +1,17 @@
+{
+	"ulid": "01K33CMTW3VRBDSARJ76T4XB46",
+	"minTime": 1755671009543,
+	"maxTime": 1755676800000,
+	"stats": {
+		"numSamples": 542667,
+		"numSeries": 1414,
+		"numChunks": 4232
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01K33CMTW3VRBDSARJ76T4XB46"
+		]
+	},
+	"version": 1
+}

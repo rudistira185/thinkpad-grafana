@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery Exporter Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/battery_exporter.sh > /var/lib/node_exporter/textfile_collector/battery.prom

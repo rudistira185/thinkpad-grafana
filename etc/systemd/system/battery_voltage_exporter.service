@@ -1,0 +1,6 @@
+[Unit]
+Description=Export battery voltage to Node Exporter
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/battery_voltage_exporter.sh

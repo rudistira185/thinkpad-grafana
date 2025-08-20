@@ -1,0 +1,11 @@
+# HELP ram_used_bytes RAM digunakan dalam bytes
+# TYPE ram_used_bytes gauge
+ram_used_bytes 4457201664
+
+# HELP ram_total_bytes Total RAM
+# TYPE ram_total_bytes gauge
+ram_total_bytes 8176168960
+
+# HELP ram_used_percent RAM digunakan dalam persen
+# TYPE ram_used_percent gauge
+ram_used_percent 54.51

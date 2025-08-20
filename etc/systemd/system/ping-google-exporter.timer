@@ -1,0 +1,11 @@
+[Unit]
+Description=Run ping_google every 1 second
+
+[Timer]
+OnBootSec=1sec
+OnUnitActiveSec=1sec
+AccuracySec=500ms
+Unit=ping-google-exporter.service
+
+[Install]
+WantedBy=timers.target

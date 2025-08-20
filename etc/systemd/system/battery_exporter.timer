@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Battery Exporter every 15s
+
+[Timer]
+OnBootSec=10
+OnUnitActiveSec=15s
+Unit=battery_exporter.service
+
+[Install]
+WantedBy=timers.target

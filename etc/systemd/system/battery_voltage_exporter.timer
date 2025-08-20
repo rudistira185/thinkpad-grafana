@@ -1,0 +1,11 @@
+[Unit]
+Description=Run battery_voltage_exporter every 10 seconds
+
+[Timer]
+OnBootSec=5sec
+OnUnitActiveSec=10sec
+AccuracySec=1ms
+Unit=battery_voltage_exporter.service
+
+[Install]
+WantedBy=timers.target

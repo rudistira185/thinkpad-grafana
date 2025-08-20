@@ -1,0 +1,15 @@
+[Unit]
+Description=Run ping-google-exporter every 10 seconds
+
+[Timer]
+OnBootSec=5sec
+OnUnitActiveSec=10sec
+AccuracySec=1ms
+Unit=ping-google-exporter.service   # <-- pastikan sama persis dengan nama service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ping-google-exporter.sh
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Export Intel GPU metrics to Node Exporter
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/gpu_exporter.sh

@@ -1,0 +1,6 @@
+[Unit]
+Description=Update RAM usage for node_exporter
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ram-usage-exporter.sh

@@ -1,0 +1,12 @@
+# HELP intel_gpu_frequency_mhz GPU current frequency in MHz
+# TYPE intel_gpu_frequency_mhz gauge
+intel_gpu_frequency_mhz 
+# HELP intel_gpu_max_frequency_mhz GPU max frequency in MHz
+# TYPE intel_gpu_max_frequency_mhz gauge
+intel_gpu_max_frequency_mhz 
+# HELP intel_gpu_busy_percent GPU busy percentage
+# TYPE intel_gpu_busy_percent gauge
+intel_gpu_busy_percent 
+# HELP intel_gpu_temp_celsius GPU temperature in Celsius
+# TYPE intel_gpu_temp_celsius gauge
+intel_gpu_temp_celsius 42

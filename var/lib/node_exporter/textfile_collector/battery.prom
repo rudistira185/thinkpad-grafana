@@ -1,0 +1,3 @@
+# HELP laptop_battery_capacity_percent Total battery percentage across all batteries
+# TYPE laptop_battery_capacity_percent gauge
+laptop_battery_capacity_percent 76
