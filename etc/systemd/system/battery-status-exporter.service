@@ -1,0 +1,7 @@
+[Unit]
+Description=Export ThinkPad Battery Status to Node Exporter
+Wants=battery-status.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/battery-status-exporter.sh

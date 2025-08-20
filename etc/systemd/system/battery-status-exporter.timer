@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Battery Status Exporter every 1 minute
+
+[Timer]
+OnBootSec=30s
+OnUnitActiveSec=60s
+Unit=battery-status-exporter.service
+
+[Install]
+WantedBy=timers.target
